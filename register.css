@@ -1,0 +1,60 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    color: white;
+    background-color: rgb(39, 15, 63);
+}
+form{
+    max-width: 700px;
+    margin:20px auto;
+    padding: 10px 20px;
+    color: white;
+    text-color: white;
+
+   
+}
+body {
+    color: white;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 10px;
+}
+input {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    color: white;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+select {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+textarea {
+    padding: 50px;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    position: relative;
+    text-align: left;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+button {
+    padding: 20px;
+    background-image: linear-gradient(to right, blue, purple, red);
+    border-radius: 10px;
+}
+text {
+    color: white;
+}
+::placeholder{
+    color:white;
+}
